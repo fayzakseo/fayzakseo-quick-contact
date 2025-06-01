@@ -1,0 +1,52 @@
+.fayzak-qc-button {
+    position: fixed;
+    bottom: 80px;
+    z-index: 9999;
+    text-align: center;
+}
+
+.fayzak-qc-button.qc-left {
+    left: 20px !important;
+    right: auto !important;
+}
+
+.fayzak-qc-button.qc-right {
+    right: 20px !important;
+    left: auto !important;
+}
+
+.fayzak-qc-toggle {
+    background-color: #25D366;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.fayzak-qc-menu {
+    display: none;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.fayzak-qc-menu a {
+    display: block;
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fayzak-qc-menu a:hover {
+    color: #25D366;
+}
