@@ -18,7 +18,7 @@
       background: white;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 600px;
+      max-width: 700px;
     }
     .button {
       display: inline-block;
@@ -27,11 +27,20 @@
       color: white;
       text-decoration: none;
       border-radius: 8px;
-      margin-top: 1.5rem;
+      margin: 0.5rem;
       font-weight: bold;
     }
     .button:hover {
       background-color: #0056b3;
+    }
+    .button.secondary {
+      background-color: #28a745;
+    }
+    .plugin-image {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
     }
   </style>
 </head>
@@ -40,17 +49,19 @@
   <h1>Fayzak Quick Contact</h1>
   <p>Lightweight plugin that lets your visitors call or WhatsApp you instantly – while tracking clicks and collecting leads.</p>
 
+  <!-- תמונה של התוסף -->
+  <img src="assets/fayzak-plugin-preview.png" alt="Fayzak Plugin Preview" class="plugin-image" />
+
   <div class="demo-box">
     <h2>🔧 Live Plugin Demo</h2>
     <p>This is how the plugin looks on your website:</p>
-    
-    <!-- כאן אפשר להכניס תוסף אמיתי -->
-    <script src="assets/plugin.js"></script> <!-- לדוגמה -->
     <div id="plugin-demo">[Your plugin demo would appear here]</div>
   </div>
 
-  <a href="fayzak-quick-contact.zip" class="button" download>⬇️ Download Plugin</a><br>
-  <a href="https://github.com/fayzakseo/fayzak-quick-contact" class="button" style="background:#28a745;">View on GitHub</a>
+  <!-- כפתורים -->
+  <a href="fayzak-quick-contact.zip" class="button" download>⬇️ Download Plugin</a>
+  <a href="https://github.com/fayzakseo/fayzak-quick-contact" class="button secondary">View on GitHub</a>
+  <a href="https://fayzakseo.com/fayzak-quick-contact-plugin/" class="button" style="background-color: #6c757d;">More Info</a>
 
 </body>
 </html>
