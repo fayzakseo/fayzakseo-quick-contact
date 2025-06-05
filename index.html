@@ -2,60 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fayzak Quick Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fayzak Quick Contact – Plugin Demo</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
       margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-    .container {
-      background: white;
       padding: 2rem;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    .demo-box {
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      max-width: 400px;
-      width: 100%;
+      max-width: 600px;
     }
-    h2 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    input, textarea, button {
-      width: 100%;
-      padding: 0.75rem;
-      margin-top: 0.5rem;
-      margin-bottom: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 1rem;
-    }
-    button {
-      background-color: #4CAF50;
+    .button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background-color: #007BFF;
       color: white;
-      border: none;
-      cursor: pointer;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 1.5rem;
+      font-weight: bold;
     }
-    button:hover {
-      background-color: #45a049;
+    .button:hover {
+      background-color: #0056b3;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/your-code-here" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="_replyto" placeholder="Your Email" required />
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+
+  <h1>Fayzak Quick Contact</h1>
+  <p>Lightweight plugin that lets your visitors call or WhatsApp you instantly – while tracking clicks and collecting leads.</p>
+
+  <div class="demo-box">
+    <h2>🔧 Live Plugin Demo</h2>
+    <p>This is how the plugin looks on your website:</p>
+    
+    <!-- כאן אפשר להכניס תוסף אמיתי -->
+    <script src="assets/plugin.js"></script> <!-- לדוגמה -->
+    <div id="plugin-demo">[Your plugin demo would appear here]</div>
   </div>
+
+  <a href="fayzak-quick-contact.zip" class="button" download>⬇️ Download Plugin</a><br>
+  <a href="https://github.com/fayzakseo/fayzak-quick-contact" class="button" style="background:#28a745;">View on GitHub</a>
+
 </body>
 </html>
